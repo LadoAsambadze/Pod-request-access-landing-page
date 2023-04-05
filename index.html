@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pod request access landing page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/favicon-32x32.png" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        class="logo"
+        src="./assets/mobile/Combined Shape.png"
+        alt="Pulse logo"
+      />
+      <img class="pod" src="./assets/mobile/pod.png" alt="Pod Text" />
+    </div>
+    <div class="main">
+      <h2><span class="green-text">Publish your podcasts </span>everywhere.</h2>
+      <p class="text">
+        Upload your audio to Pod with a single click. We’ll then distribute your
+        podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
+        more!
+      </p>
+
+      <form class="desktop-form">
+        <label>
+          <input
+            type="email"
+            class="email-desktop"
+            required
+            placeholder="Email Address"
+            oninvalid=""
+            oninput=""
+          />
+          <span class="error hidden">Oops! Please check your email</span>
+          <button type="submit" value="Request access">Request access</button>
+        </label>
+      </form>
+
+      <div class="logos-div">
+        <img
+          class="spotify"
+          src="./assets/desktop/spotify.svg"
+          alt="spotify logo"
+        />
+        <img
+          class="apple"
+          src="./assets/desktop/apple-podcast.svg"
+          alt="apple  podcast"
+        />
+        <img
+          class="google"
+          src="./assets/desktop/google-podcasts.svg"
+          alt="Google podcast"
+        />
+        <img
+          class="pocket"
+          src="./assets/desktop/pocket-casts.svg"
+          alt="pocket casts"
+        />
+      </div>
+      <form class="mobile-form">
+        <label>
+          <input
+            class="email-mobile"
+            required
+            placeholder="Email address"
+            type="email"
+            oninvalid=""
+            oninput=""
+          />
+          <span class="error error1 hidden">Oops! Please check your email</span>
+          <button
+            class="request-button-mobile"
+            type="submit"
+            value="request access"
+          >
+            Request Access
+          </button>
+        </label>
+      </form>
+    </div>
+    <footer>
+      <img
+        class="footer-image"
+        src="./assets/desktop/bg-pattern-dots.svg"
+        alt="dots"
+      />
+    </footer>
+    <img
+      class="footer-image-desktop"
+      src="./assets/desktop/bg-pattern-dots.svg"
+      alt="dots"
+    />
+  </body>
+  <script src="./main.js"></script>
+</html>
