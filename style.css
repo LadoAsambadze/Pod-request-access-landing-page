@@ -102,6 +102,7 @@ h2 {
   border: none;
   background-color: var(--darkGray);
   padding-left: 32px;
+  color: white;
 }
 
 input::placeholder {
@@ -194,6 +195,7 @@ button:hover {
     background: #2c344b;
     border-radius: 28px;
     margin-bottom: 8px;
+    color: white;
   }
   .request-button-desktop {
     position: absolute;
